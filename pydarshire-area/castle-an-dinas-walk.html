@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Castle-an-Dinas Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Castle-an-Dinas</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.422752, lng: -4.8929645 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 106
+                            <br>
+                            <b>Start Ref:</b> 946 621
+                            <br>
+                            <b>End Ref:</b> 946 621
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Easy
+                            <br>
+                            <b>Distance:</b> 2.5 miles
+                            <br>
+                            <b>Time:</b> 2hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        We leave our car in the car park at the end of the bridleway on the Southern edge of the fort itself. As we leave the car,
+                        we pass through a little kissing gate and continue up the gentle incline until we find ourselves
+                        at the fort.
+                    </p>
+                    <p>
+                        If we turn left we follow the perimeter track for a short distance before coming to the entrance track on our right which
+                        will take us into the centre of the fort by walking through the three rampart banks that made up
+                        its defences. Once in the centre we see a compass plate which will highlight the 360 degree views
+                        that we are rewarded with here. From the North Coast to Brown Willy, from Roche Rock to Carn Brea.
+                        However, for me the most impressive feature is the fort itself – now maintained by the Cornwall Heritage
+                        Trust. This fort is 20 acres in size and was in occupation between 400 BC and 150 AD, but to truly
+                        appreciate this structure you need to take time to walk around the perimeter whilst looking out to
+                        the landscape and realise how the occupants would have had such a large advantage over any attacking
+                        force. Our forefathers really knew what they were doing.
+                    </p>
+                    <p>
+                        After we have explored Castle-an-Dinas, we rejoin our original path and follow it along the Eastern side of the fort, before
+                        stepping off the perimeter track and going through a kissing gate (with a lovely wicker fence edging)
+                        on its North Eastern side and following the path through the bracken and alongside the barb wire
+                        fence as the path takes us gently downhill. We pass through two kissing gates and across a track
+                        before walking through a lovely grove of trees that are dressed in hanging moss (very atmospheric),
+                        at the end of which we reach another farm track.
+                    </p>
+                    <img src="../assets/images/pydarshire-area/castle-an-dinas-copse.JPG" width="100%;" alt="Castle-an-Dinas copse" />
+                    <br>
+                    <br>
+                    <p>
+                        At this track, we turn right and follow it until it appears to turn into a field on our left. Do NOT go in, the path is actually
+                        straight ahead and a little overgrown, but after about 20 meters it comes to a gate which we can
+                        go through, and then we are walking in open fields. We are going to follow the hedge on our left
+                        for about ¼ mile until it comes to a corner.
+                    </p>
+                    <p>
+                        For the purpose of our walk we will turn right here and again follow the field edge BUT, for a moment we are going to go
+                        through the gate in front of us and then through the small gate which will present itself on our
+                        left. This gate leads through to Tregonetha Downs, and this is a lovely spot to stop and have a picnic.
+                        These Downs are Common Land so the farmer can graze his cattle, but I find that it is a superb spot
+                        full of heathers, furze and bracken and totally devoid of humans – wonderful.
+                    </p>
+                    <img src="../assets/images/pydarshire-area/castle-an-dinas-view-towards.JPG" width="100%;" alt="Castle-an-Dinas view towards"
+                    />
+                    <br>
+                    <br>
+                    <p>
+                        If you have stopped to enjoy Tregonetha Downs, then we need to return through the same two gates until we return to the field,
+                        to be able to continue to enjoy our walk. We are going to again follow the left hedge as we now head
+                        South along a track which slowly becomes a lane as we pass through Castle Farm (and possibly one
+                        of the cleanest cattle enclosures I have seen). This track becomes our Bridleway which we are now
+                        going to follow until we reach the road.
+                    </p>
+                    <p>
+                        This road can be busy, although when I last walked along it on a Bank Holiday weekend, it was not too bad, but still take
+                        care and walk in single file and step in on the verge whenever you can.
+                    </p>
+                    <p>
+                        At the road, we are going to turn right and follow it until we reach the turning on our right which will take us up the Bridleway,
+                        which is signposted as leading to the Ancient Monument. This track leads us back up the side of the
+                        hill on which Castle-an-Dinas is situated and we find that we are back in the car park. Just by the
+                        gate there is a very informative plate which describes the history and uses of the Castle and is
+                        well worth a read.
+                    </p>
+                    <p>
+                        I hope that you enjoy this walk, and savour the history of the area that we have just walked through.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

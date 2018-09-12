@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Hensbarrow Beacon Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Hensbarrow Beacon</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.383295, lng: -4.8258467 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 106
+                            <br>
+                            <b>Start Ref:</b> 9920 5753
+                            <br>
+                            <b>End Ref:</b> 9920 5753
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Easy
+                            <br>
+                            <b>Distance:</b> 1.25 miles
+                            <br>
+                            <b>Time:</b> 1hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        We start this walk in the little car pull in by Littlejohn`s China Clay Works, and rather than walk straight out on to the
+                        moor (through the swing gate on its Northern corner), we head North and down the road towards Roche
+                        for about 100m until coming to a public footpath on our right. From this point we are now out on
+                        the moor itself and follow the path still North but beginning to bear of to our right (East).
+                    </p>
+                    <p>
+                        As the path leads us just below the wooden pylons, we have an option of turning right or carrying straight on. If we carry
+                        straight on we get the opportunity to turn into a field on our right and then double back on ourselves
+                        to rejoin the moor.
+                    </p>
+                    <img src="../assets/images/powdershire-area/hensbarrow-beacon-moorland.JPG" width="100%;" alt="Hensbarrow Beacon Moorland" />
+                    <br>
+                    <br>
+                    <p>
+                        However, for this walk we are going to turn right as we reach pylon V18, and head slightly uphill in a Southerly direction
+                        and therefore remaining on the moor. The path then slowly converges with a fence on our left hand
+                        side, and then follows this to the corner of the moor (we pass by the gate we would have rejoined
+                        the path with if we had headed straight on earlier).
+                    </p>
+                    <p>
+                        At this corner, there is a swinging foot gate, which we need to go through and then directly in front of us is the summit
+                        of Hensbarrow Beacon on the top of a small mound. Here you will find a granite pillar and a Trig
+                        Point. Take time to look around here, and realise that prior to the mining industry, we would have
+                        been on the highest point around, and that you are in fact looking down on Roche and Roche Rock,
+                        and that when it is clear we can easily see both coastlines (even though we are flanked by spoils
+                        to the East and West).
+                    </p>
+                    <img src="../assets/images/powdershire-area/hensbarrow-beacon-trig-point.JPG" width="100%;" alt="Hensbarrow Beacon Trig Point"
+                    />
+                    <br>
+                    <br>
+                    <p>
+                        Descending from the Beacon, we do not return onto the moor, but rather keeping the fence on our right and heading West we
+                        will follow a narrow path until we emerge between two granite stones and find ourselves back at our
+                        car.
+                    </p>
+                    <p>
+                        This is a very short walk, and deceptive in as much that it is not the highest feature around. However, the moorland itself
+                        is wild and relatively untouched, which means that if you decide to lengthen your walk and go deeper
+                        North in to the moor, you will find that the bracken, heather and furze make for interesting walking
+                        and you will find yourself being Piskie Led quite easily. This feature also makes for an abundance
+                        of wildlife and I have seen Roe Deer on every occasion that I have walked this, and local stories
+                        point to numerous sightings of the (not so) illusive Beast.
+                    </p>
+                    <p>
+                        I hope that you enjoy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

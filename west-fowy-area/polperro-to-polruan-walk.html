@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Polperro to Polruan Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Polperro to Polruan</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The start location of the walk
+                            var walkStart = { lat: 50.330741, lng: -4.5177877 };
+                            // The end location of the walk
+                            var walkEnd = { lat: 50.329056, lng: -4.6343282 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walkStart,
+                                    streetViewControl: false
+                                });
+                            // The markers, positioned at the start and end of the walk
+                            var markerStart = new google.maps.Marker({ position: walkStart, map: map, label: '1' });
+                            var markerEnd = new google.maps.Marker({ position: walkEnd, map: map, label: '2' });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 107
+                            <br>
+                            <b>Start Ref:</b> 209 509
+                            <br>
+                            <b>End Ref:</b> 126 510
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Medium - Hard
+                            <br>
+                            <b>Distance:</b> 8.5 miles
+                            <br>
+                            <b>Time:</b> 6hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        A Walk Requiring a Shuttle Run
+                    </p>
+                    <p>
+                        This walk starts in the beautiful picture postcard village of Polperro, the parking for which is just outside of the village
+                        on the A387. However, our walk is going to start at the head of the harbour and follow the western
+                        edge along the waters edge and past the quaint old fishing houses and up the steps that lead to the
+                        coastal path and out to the point. Here we will find the old saltings buildings (and rather like
+                        our last walk, this building is on the cover of our new OS Explorer map). Here we follow the path
+                        to the right, and have to follow a slight path diversion due to erosion, past Chapel Cliff. If we
+                        are sharp eyed here, we will see the little hole leading into the cliffs, right next to the footpath.
+                    </p>
+                    <p>
+                        This section of the coastal footpath is very undulating, and I have found that plenty of refreshment is needed to accompany
+                        this walk, and over the next few miles we will certainly need to stop plenty of times to refresh
+                        our palates. As we walk on, we pass a little white day marker which stands guard next to the footpath.
+                        We will need to make our own spots for stopping, until we get to a little flat low area near East
+                        Coombe. Here, some kind souls have provided a bench, and not only do we get a good view out to sea,
+                        but there are deer on the slopes behind us. I hope that you see them like I have.
+                    </p>
+                    <img src="../assets/images/westfowy-area/polperro-to-polruan-rest-point.JPG" width="100%;" alt="Polperro to Polruan Rest Point"
+                    />
+                    <br>
+                    <br>
+                    <p>
+                        On we must continue, over Lansallos Cliff before we drop down to the beautiful Sandheap Point, and yet another of Cornwall`s
+                        hidden gems of a beach (with its footpath back up to Lansallos).
+                    </p>
+                    <p>
+                        We must tear ourselves away from here, as we still have a fair route to go, so back to the footpath we must go as we head
+                        on to Pencarrow Point. From here we will start to get glimpses of one of Cornwall`s most famed beaches,
+                        which is lucky, as we need the view of Great and Little Lantic Beaches to take away the pain of the
+                        steepness of this section of the coast path. I have only ever sailed or paddled to these beaches,
+                        and as I watch people walking down and back up from the beach, I am not entirely sure I will ever
+                        reach them by foot, especially if I have just walked the path we just have!
+                    </p>
+                    <p>
+                        We can pause at the gate, where a footpath tries to lead us to the beaches, before we continue along the fields heading up
+                        the unrelenting (you may gather that I was beginning to feel the burn in my legs by this point) steep
+                        section to Blackbottle Rock. Here again we can pause for a top up of water before following the path
+                        towards Polruan.
+                    </p>
+                    <img src="../assets/images/westfowy-area/polperro-to-polruan-view-point.JPG" width="100%;" alt="Polperro to Polruan View Point"
+                    />
+                    <br>
+                    <br>
+                    <p>
+                        The footpath becomes easier and flatter now as we cross in and out of fields – although always following the coast –and then
+                        below the first few houses as we come out at the point just below the Coast Guard Station. At this
+                        point the path leads us up to the top of the village and then left through the car park before dropping
+                        down towards Polruan Blockhouse, although it turns right just short of this and then back towards
+                        the quay.
+                    </p>
+                    <p>
+                        Polruan, like many coastal villages has good pubs and eateries, and a lovely quay with plenty of seats to relax and enjoy.
+                        I find that being picked up in Fowey is by far the easier, so taking the Polruan Foot Ferry is a
+                        lovely way to end our walk.
+                    </p>
+                    <p>
+                        Well done on completing this walk.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

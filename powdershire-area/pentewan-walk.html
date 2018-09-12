@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Pentewan Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Pentewan</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.307958, lng: -4.7680010 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 105
+                            <br>
+                            <b>Start Ref:</b> 030 490
+                            <br>
+                            <b>End Ref:</b> 030 490
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Easy - Medium
+                            <br>
+                            <b>Distance:</b> 3 miles
+                            <br>
+                            <b>Time:</b> 2hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        This walk, we were able to squeeze in after walk, just before the clocks changed this week. Trenarren is a little (lovely)
+                        hamlet just outside of St. Austell on the way to Black Head, which in itself is a gentle walk with
+                        great views.
+                    </p>
+                    <p>
+                        However, for this walk we left the car in the car park just above the hamlet, and headed right, down the road and through
+                        the hamlet, until this road turned into a path and then we pass just above a private house (Hallane)
+                        which is situated right on the coast and just above a hidden beach.
+                    </p>
+                    <p>
+                        Behind the house the footpath bears West (right) and starts to lead you up a path, passing a bubbling stream with a few little
+                        steps of waterfalls until you cross left over a footbridge and up a steepish path until you come
+                        out of the trees and into fields which are now the staple of this walk, and from which we are afforded
+                        glorious views of Mevagissey Bay.
+                    </p>
+                    <img src="../assets/images/powdershire-area/pentewan-hellane.JPG" width="100%;" alt="Pentewan" />
+                    <br>
+                    <br>
+                    <p>
+                        The footpath is well defined and well marked, so the path is now easy to follow. This is useful, as at times I was concentrating
+                        it is also steep and I was concentrating on views and hydration as much as the map! We pass above
+                        the stunning Polrudden Cove and as we reach Gamas Point, we gain our first view of the long golden
+                        beach at Pentewan.
+                    </p>
+                    <p>
+                        The footpath itself leads you down passing the Church on the side of the hill and a few houses before joining the road.
+                    </p>
+                    <p>
+                        Here my route turns us North East (right) and up the hill, but I thoroughly recommend walking down to the village and taking
+                        advantage of either the toilets or the pub and having a look at the beach and old harbour.
+                    </p>
+                    <img src="../assets/images/powdershire-area/pentewan-break.JPG" width="100%;" alt="Pentewan Break" />
+                    <br>
+                    <br>
+                    <p>
+                        After our drink, we head back up the road. This is a steep one and we will be on it for about ¾ mile. We will pass two farm
+                        entrances on our right (Polrudden and Porthtowan) before taking the third right hand turn (East)
+                        which is on the brow of the hill as the road bears around to the West (left). Follow this along until
+                        you get to the farm house and then turn North (left) and back into the fields as you head down hill.
+                        Here you get to a small footbridge and enter into another field.
+                    </p>
+                    <p>
+                        Choice, either follow the hedge on your right – the path will lead you down to intersect the first part of the route at Trenarren,
+                        OR (as I do) turn left and up the side of the field, go through the gate and turn immediately right
+                        through another gate and down a rather slurried path until you come to yet another field.
+                    </p>
+                    <p>
+                        This gate takes you into a little used path that leads between fields and brings you out (seemingly) into the back gardens
+                        of some of the houses in Trenarren. It doesn`t, don`t worry.
+                    </p>
+                    <p>
+                        When you meet the road, turn North (left) and make your way leisurely back to the car at the top of this road.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

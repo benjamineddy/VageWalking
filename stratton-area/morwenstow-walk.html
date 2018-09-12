@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Morwenstow Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Morwenstow</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.908320, lng: -4.5531063 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 126
+                            <br>
+                            <b>Start Ref:</b> 206 152
+                            <br>
+                            <b>End Ref:</b> 206 152
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Medium
+                            <br>
+                            <b>Distance:</b> 4 miles
+                            <br>
+                            <b>Time:</b> 2.5hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        Our Start Point is the small parking area outside of the beautiful Morwenstow Church. Here, we are presented with a number
+                        of footpaths, but for today we are going to head North and down into the valley keeping the Church
+                        on our left and the Rectory on our right. At the bottom of the tree lined valley we are going to
+                        use the footbridge to cross the stream and then head up the opposite valley side until we come out
+                        of the trees and can follow the field to the West (left), entering another field and making our way
+                        to the coast. From here, we have a spectacular view of Morwenstow Church and the valley we have just
+                        walked through.
+                    </p>
+                    <p>
+                        At the end of this steep sided field, we reach the Coastal Path and here we want to head South (left) and down the valley
+                        side as we head towards a little footbridge which takes us over the stream which we have already
+                        crossed once. As this stream flows over the cliff edge, it creates the first of the waterfalls that
+                        we see today.
+                    </p>
+                    <img src="../assets/images/stratton-area/morwenstow-hawkers-hut.JPG" width="100%;" alt="Morwenstow Hawkers' Hut" />
+                    <br>
+                    <br>
+                    <p>
+                        We stick to the footpath as it again heads up the steep sides, passing St. Morwenna`s Well, and on up until the path flattens
+                        out again on Vicarage Cliffs. Midway through the second field, we pass a small sign directing us
+                        off to the right and the Hawker`s Hut, where we can stop and admire the view, fill in the visitors
+                        book (and maybe even go through the odd verse of Song Of The Western Men). It is wise to take a breather
+                        here, as we are about to traverse another valley as we head down to Tidna Shute (with another little
+                        footbridge) and the second of the waterfalls for today.
+                    </p>
+                    <p>
+                        As we head up the far side we find on our right, the imposing and downright spectacular Higher Sharpnose Point, with an old
+                        lookout hut guarding its path as it juts out into the sea with its slab edges. Here I find, looking
+                        back, that there is no more exceptional point in Cornwall (my opinion).
+                    </p>
+                    <img src="../assets/images/stratton-area/morwenstow-sharpnose-point.JPG" width="100%;" alt="Morwenstow Sharnose Point" />
+                    <br>
+                    <br>
+                    <p>
+                        After balancing our way back to the lookout, we are again going to head South (right, towards the Radio Station) keeping
+                        the coast on our right and strolling through a couple more fields. As we get to one gate, we are
+                        given the option of turning left through a kissing gate and following the path inland. This is our
+                        path for today as we now want to head towards Stanbury, which involves passing as many kissing gates
+                        in a short distance as I have ever come across (`ansom). The path finishes as the road starts, and
+                        we are going to follow this straight on towards the farm houses.
+                    </p>
+                    <p>
+                        As the farm starts, there is a footpath to our left, which we are again going to take across two fields and suddenly find
+                        ourselves at the old settlement of Tonacombe. Here the path is a little confusing, but we want to
+                        go straight ahead into the trees and then back into two open fields. The second of these fields starts
+                        to head down hill as we approach the Tidna again. Just prior to the stream the path splits in three
+                        directions. Take the right hand branch and this will lead us to the final footbridge and then up
+                        our final steep hill.
+                    </p>
+                    <p>
+                        As we near the top of the hill we find ourselves, quite literally, in a beer garden.
+                    </p>
+                    <p>
+                        You may, like myself, my wife and our walking sticks, stop for a touch of refreshment here, before rejoining the road and
+                        following it to the left and then down the right hand branch as it leads us back the short distance
+                        to where we have left our car.
+                    </p>
+                    <p>
+                        I hope that you have enjoyed this walk, and like myself, find it worth the drive.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Castle an Dinas Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Castle an Dinas</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.360150, lng: -4.1748622 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 102
+                            <br>
+                            <b>Start Ref:</b> 4908 3418
+                            <br>
+                            <b>End Ref:</b> 4908 3418
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Easy
+                            <br>
+                            <b>Distance:</b> 3 miles
+                            <br>
+                            <b>Time:</b> 2hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        At the little hamlet of Castle Gate, on the B3311, is a substantial lay-by which is marked on the map as Parking. This is
+                        where my daughter and I left our car. This is our start and finish point.
+                    </p>
+                    <p>
+                        From here, we walk a short distance back down the road heading towards Penzance, until we get to the T-Junction. On our right
+                        hand side (opposite the road coming up from Ludgvan) is a Bridleway, which we are going to take.
+                        This Bridleway is going to lead us in a general North Westerly direction and leads us alongside some
+                        Open Access land, before turning South West and then coming out alongside the Quarry. From here,
+                        the footpath has legally been re-routed, to follow the outer edges of the quarry. This actually makes
+                        the path easy to follow and relatively broad (if in some places very wet underfoot) as it takes us
+                        around Gulval Downs. Continue to follow the bridleway until we turn right (North East) as this path
+                        joins another coming up from the left.As we turn right here and start to head up a gentle incline
+                        towards Tonkins Downs, we get our first glimpse of the Folly that inspired me to want to do this
+                        particular walk.
+                    </p>
+                    <img src="../assets/images/penwith-area/castle-an-dinas-gulval-downs.JPG" width="100%;" alt="Castle an Dinas Gulval Downs" />
+                    <br>
+                    <br>
+                    <p>
+                        After a short while we pass by two spaced apart Boundary Stones on our left – both bearing the initial `L` - before coming
+                        upon a large gate on our right which gives an upper entrance to the quarry. All this time we will
+                        feel that we are actually passing by the Folly, but bear with us. We leave this gate on our right
+                        and continue for a short distance until we come across a set of steps over the hedge on our right.
+                    </p>
+                    <p>
+                        We climb over this hedge and follow the track up and to the South East until we get to the brow of the hill and the Ordinance
+                        Survey Trig Point and Roger`s Folly.
+                    </p>
+                    <p>
+                        The trig point is at a height of 233m, and is actually one of the highest points around, and from here (on a clear day) you
+                        have views of The Mount, Newlyn, Trencrom Hill and Watch Croft (featured a few weeks ago). The interesting
+                        spot though is Roger`s Folly, built around c.1798 by Mr. John Rogers and is on the site of an Iron
+                        Age Fort. It makes for very attractive photographs and is a great place for a picnic.
+                    </p>
+                    <img src="../assets/images/penwith-area/castle-an-dinas-rogers-folly.JPG" width="100%;" alt="Castle an Dinas Rogers Folly" />
+                    <br>
+                    <br>
+                    <p>
+                        Once our picnic is finished, we head back down the path to the hedge stile and turn right following the broad path in a North
+                        Easterly direction.
+                    </p>
+                    <p>
+                        We pass through a kissing gate on our left, as the path to our right and over Trenowin Downs is now blocked, and at the end
+                        of this path (which passes several footpaths of on our left for a `Self Guided Route of Bakers Pit`
+                        - a nature reserve), we join a broad path which turns right (South East). This path leads us down
+                        past several farmhouses until after approximately ½ mile it brings us out on the road which if we
+                        turn right, will lead us back to our car.
+                    </p>
+                    <p>
+                        Here, we need to take care, as the road is windy and narrow. Children and pets need to be on leads!!
+                    </p>
+                    <p>
+                        We may want to call in on the beautifully named `Green Pig Tea Rooms` which we pass on this road. It was closed when we passed
+                        by, but may well be worth a visit.
+                    </p>
+                    <p>
+                        I hope that you enjoy the walk.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

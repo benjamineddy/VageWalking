@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Veryan Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Veryan</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.219611, lng: -4.9227098 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 105
+                            <br>
+                            <b>Start Ref:</b> 916 396
+                            <br>
+                            <b>End Ref:</b> 916 396
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Medium
+                            <br>
+                            <b>Distance:</b> 8.5 miles
+                            <br>
+                            <b>Time:</b> 5hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        We start our walk in the lovely village of Veryan, but please park with consideration for the villagers. There are Public
+                        Toilets here, a shop and a very good pub. Just below the Church is the village pond and park and
+                        it is through this that we are going to leave the village. Through the play park we will find a little
+                        granite footbridge and stile that leads out in to the field with a large solitary tree standing in
+                        it. Follow to the tree and then head up the slope towards the top left corner of this field where
+                        we pass through a gate and a small copse of trees before coming out in another field. If we go East
+                        through this field, we come to a gate that leads us down alongside a few houses and then out on to
+                        the road.
+                    </p>
+                    <p>
+                        As we join this road we want to go (effectively) straight across and down the road to Trewartha. This road, turns in to a
+                        bridleway and then turns right as it enters the farm. It is signposted well as we then turn left
+                        and take the left hand gate into another field. Approximately 200m along the hedge on our right,
+                        we will find a set of granite steps over the hedge, which lead us into a field which will slope down
+                        the valley and bring us out in what appears to be someone’s garden, but is part of the footpath.
+                        The path carries on and leads us to the road where we turn left and walk down to the slipway at Portloe.
+                    </p>
+                    <p>
+                        After enjoying the slipway, we follow the coastal path (to the right as we look out to sea) and follow it to Jacka Point.
+                        The path splits before we get there, but it is worth the very short detour to enjoy the view. As
+                        we head up and away from Jacka Point, the path again splits. Here we can either follow inland, or
+                        continue to follow the coastal path, which is the route we are taking today as we follow along the
+                        top of the cliffs but also along the side of fields. Slowly the terrain changes and we find ourselves
+                        surrounded by large conifers and see on our right hand side Broom Parc, which is a National Trust
+                        owned property and section of land (they must have a truly splendid view).
+                    </p>
+                    <p>
+                        As we leave the conifers the path becomes surrounded by furze and bracken and starts to wind steeply downhill, at which point
+                        I was certainly glad that I have done this walk in this direction. At the bottom of the path there
+                        is a bench which I utilized fully for a cup of tea and to enjoy the view before continuing on again.
+                    </p>
+                    <img src="../assets/images/powdershire-area/veryan-tregagles-hole.JPG" width="100%;" alt="Veryan Tregagle's Hole" />
+                    <br>
+                    <br>
+                    <p>
+                        Over a footbridge we go and then again start rising up as the footpath follows the cliffs up and around Kiberick Cove. Thankfully
+                        for us, the path stays up high and does not drop down and then back up again, but instead cuts across
+                        a field and then we need to bear left to head out to Nare Head, rather than going straight and on
+                        to the car park. As we follow the path around we find ourselves in an important WWII site for confusing
+                        the Nazi Luftwaffe and a little further along we see the entrance to the Cold War Nuclear Bunker.
+                        Potentially so much war associated with such a beautiful spot.
+                    </p>
+                    <p>
+                        As we follow the headland around the path drops down and we go pass the abandoned cob house hear Tregagle`s Hole, and the
+                        beautiful and secluded stony beach that is here. A deep breath and then we climb back up the other
+                        side of the valley as the well marked footpath now leads us on towards Carne Beach. Once here, the
+                        footpath has been redirected around the back of the Nare Hotel, but it is well signposted as you
+                        pass the helicopter landing spot!
+                    </p>
+                    <p>
+                        A short distance further and we reach Pendower Beach, where we have Public Toilets and the chance of a swim or refreshment.
+                    </p>
+                    <p>
+                        Now we start to head inland, and to do this we must go to the back of the National Trust car park, where there is a narrow
+                        path that will lead us through a shaded wooded valley and alongside a gently flowing stream. This
+                        path leads us up to Lower Mill, where there is a small footbridge that crosses the stream (in front
+                        of the houses) and then leads again up the valley edge before dropping down and coming out at Melinsey
+                        Mill.
+                    </p>
+                    <img src="../assets/images/powdershire-area/veryan-footbridge.JPG" width="100%;" alt="Veryan Footbridge" />
+                    <br>
+                    <br>
+                    <p>
+                        Now we are off the footpaths and are entirely on road as we make our way back towards Veryan. To do this we turn right as
+                        we come off the footpath and keep Melinsey Mill on our left as we head up the (steep) road. This
+                        road we will follow now for the last ¾ mile until we reach Veryan and come out at the crossroads
+                        just above the pub, before finding where we left our car – unless we call in at the pub first (non
+                        alcoholic for drivers of course).
+                    </p>
+                    <p>
+                        This is a slightly longer walk, which will take up a fair chunk of our day, but the scenery is well worth the distance and
+                        the beaches that we come across give us great ideas for further family days when the sun is shining
+                        (or even if it is not).
+                    </p>
+                    <p>
+                        We hope that you will enjoy this walk.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

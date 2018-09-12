@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Brown Willy Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Brown Willy</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.615488, lng: -4.5683107 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 109
+                            <br>
+                            <b>Start Ref:</b> 1840 8268
+                            <br>
+                            <b>End Ref:</b> 1840 8268
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b> Grading:</b> Medium
+                            <br>
+                            <b>Distance:</b> 6 miles
+                            <br>
+                            <b>Time:</b> 3.5hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        We start this walk by leaving our car by the picturesque footbridge and stream in the hamlet of Bowithick (on the road between
+                        Davidstow Moor and Altarnun. Heading in a South Westerly direction we follow the little track out
+                        onto the moor, following (on our left) the remaining walls of what would have been a reservoir. These
+                        walls are now crumbling and overgrown, but as the springs that fed it still run this can be a slightly
+                        boggy area.
+                    </p>
+                    <p>
+                        Once across this section we continue in a South Westerly direction heading up the hill (Buttern Hill) which we can see in
+                        front of us. At the summit of this hill (346m) we find the remains of an ancient burial cairn, and
+                        we also get our first clear view of Bronn Wennili and also of the Source of the River Fowey. From
+                        the summit, head in a more Westerly direction so that you go to the North of the Source, to avoid
+                        wet feet! This river flows down through Lostwithiel and on down to meet the sea at Fowey, and actually
+                        gave this moor its original name (Foye Moor).
+                    </p>
+                    <img src="../assets/images/lesnewth-area/brown-willy-sunset.JPG" width="100%;" alt="Brown Willy Sunset" />
+                    <br>
+                    <br>
+                    <p>
+                        From here we want to head again in a SW direction, but not directly towards the summit of Bronn Wennili, as there is a fencing
+                        separating High Moor and Brownwilly Downs, which only gives us access (on this side) from a more
+                        Northerly approach. Once through this gate the track is easily visible as it now heads with increasing
+                        steepness up to the summit. If you check on your map there is a Letterbox here which you can stamp
+                        your map with. This is pre Geocash technology - and both mine and my fathers maps have the stamps.
+                    </p>
+                    <p>
+                        At the highest natural point in Cornwall, stop and take in the views, fly your Cornish flag for a photo and if it`s your
+                        first ascent have a drink to celebrate (not too much as you still have to get back - a lesson my
+                        wife and sister-in-law learnt after I have plied them with rum at this point!!).
+                    </p>
+                    <p>
+                        From here, you can see the next Tor over. This is Rough Tor, pronounced Row (as in an argument) Tor. Once we have stopped
+                        a while, we descend by the same route, and pass through the same gate and now head off in a North
+                        Easterly direction to arrive again at the Northern edge of the Source of the River Fowey.
+                    </p>
+                    <p>
+                        Here though we are going to alter our route back. This can be a little bit of a strain on the ankles but is rewarded with
+                        a beautiful valley. Instead of heading up Buttern Hill, we are going to skirt around its Northern
+                        edge and follow some of the ancient leats that are still visible today. At this time of year there
+                        can still be frost underfoot even in the afternoon. As we continue along this Northern edge (but
+                        start heading East as we follow around) the hill sides become steeper and we start to see old field
+                        walls on the other side of this small valley. As we come around the flanks of the hill we again look
+                        down on the boggy section which we first walked through, and make our way back to the path, and in
+                        turn, heading North East, back to our car.
+                    </p>
+                    <img src="../assets/images/lesnewth-area/bowithick-bridge.JPG" width="100%;" alt="Brown Willy Bowithick Bridge" />
+                    <br>
+                    <br>
+                    <p>
+                        The area that we have left the car is a lovely open section, with Penpont Water running through it. The old granite bridge
+                        and ford is a beautiful area to come if only for a picnic, but also makes for a lovely finish spot
+                        (and maybe a picnic as well).
+                    </p>
+                    <p>
+                        I hope that you enjoy, this rite of passage walk and area.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

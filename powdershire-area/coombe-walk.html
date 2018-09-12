@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Coombe Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Coombe</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.232866, lng: -5.0371175 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 105
+                            <br>
+                            <b>Start Ref:</b> 835 414
+                            <br>
+                            <b>End Ref:</b> 835 414
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Easy
+                            <br>
+                            <b>Distance:</b> 2.5 miles
+                            <br>
+                            <b>Time:</b> =1.5hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        We started this walk on the road leading to Coombe (just outside of Truro) after leaving our car on the road verge outside
+                        the entrance to Lower Lanner Farm, and headed off North over the field to join the narrow road towards
+                        Old Kea Church.
+                    </p>
+                    <p>
+                        From this field you can just make out the Church steeple at St. Michael Penkivel, as well as Malpas.
+                    </p>
+                    <img src="../assets/images/powdershire-area/coombe-field-above-old-kea.JPG" width="100%;" alt="Coombe Field Above Old Kea" />
+                    <br>
+                    <br>
+                    <p>
+                        Passing the Church at Old Kea (well worth having a look around) you pass on to the head of Church Creek and then South (right)
+                        into the field, and take an immediate turn to your left up the field and along the path through the
+                        bracken. This path leads between small marker posts and between some lovely old Oak trees before
+                        going through the footpath gate.
+                    </p>
+                    <p>
+                        Here, turn right to pass the thatched cottages, but not before stopping to admire the small cross in the hedge to our left.
+                    </p>
+                    <p>
+                        Follow this wide track on to the road where we turn to the South East (left) and follow the road up and around until you
+                        pass the Unsuitable for Motors sign and the road becomes a bumpy track as it heads downhill. This
+                        road/track leads to what used to be Halwyn Tea Rooms with its lovely view towards King Harry Ferry
+                        and Tolverne Boat Yard.
+                    </p>
+                    <p>
+                        The footpath goes in front of this quaint house and into the woods, as it goes over a stile and into the field behind.After
+                        a short walk you drop down out of this field and back into the trees as you follow, and receive occasional
+                        glimpses of, Roundwood Quay and Cowlands Creek.
+                    </p>
+                    <img src="../assets/images/powdershire-area/coombe-riverside.JPG" width="100%;" alt="Coombe Riverside" />
+                    <br>
+                    <br>
+                    <p>
+                        This path leads you into the lovely hamlet of Coombe, where many of the houses sell their Kea Plum jams. At high tide the
+                        footpath leads you up in an ark around the houses and back down to the waters edge, but at other
+                        times you can, as I do, walk along the hard core track along the front, until this runs out and rejoins
+                        the footpath as it winds along the creek until you arrive at some (now) holiday cottages.
+                    </p>
+                    <p>
+                        You can continue along into Cowlands, but here, I turn to my right and follow the road up and pass an Oak tree that has a
+                        wonderful hole in its trunk, and over the cattle grid to Lower Lanner Farm, and suddenly I am back
+                        at the car.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

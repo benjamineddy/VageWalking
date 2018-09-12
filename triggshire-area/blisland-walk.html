@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Blisland Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Blisland</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.527653, lng: -4.6820670 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 109
+                            <br>
+                            <b>Start Ref:</b> 100 732
+                            <br>
+                            <b>End Ref:</b> 100 732
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Easy
+                            <br>
+                            <b>Distance:</b> 4 miles
+                            <br>
+                            <b>Time:</b> 2hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        For this walk we leave our car by the village green at Blisland. Blisland is one of those remarkably attractive villages.
+                        It feels that it is in the middle of nowhere, yet at the same time you just know it has a strong
+                        identity and community, as a result the green is well kept, the public toilets are clean, the village
+                        hall well used, the shop, tea room and pub well frequented. You might have guessed, but if not, I
+                        really like Blisland.
+                    </p>
+                    <p>
+                        There are many roads leading out from the green, and we are going to take the one signposted to Cassacawn (leaving the Manor
+                        House to our right) and we are going to follow this road for several hundred meters, passing a track
+                        on our left leading to Tumrose and leaving the public footpath to our left (although we are going
+                        to be returning on this path later). As we walk through Cassacawn we pass a signpost on our right
+                        to Waterloo before finding the road on our left that we want to take after a further 150 meters.
+                        We carry on up this road until we carefully step over a cattle grid and immediately step off the
+                        road onto a small path on our left. We follow this path rather than walking on the road, but we do
+                        find that the tracks keep trying to lead us further west than we want to go, so when the opportunity
+                        arises to bear right – do so!
+                    </p>
+                    <p>
+                        After a few hundred meters, we rejoin the road and have a gentle, flat walk until we come to a Y junction. On the opposite
+                        side of the road and slightly up the left hand branch of the Y, there is an opening that takes us
+                        over the hedge and out on to Pendrift Downs. We want to proceed in a NW direction and this will bring
+                        you to a wide track (if you should bear to far left/west then head right after you reach the tree
+                        lined hedge). Once at the broad track we can follow it left/west and suddenly we find in amongst
+                        the bracken and furze an impressively large granite rock. This is no ordinary rock, take time to
+                        have a look around and marvel at the inscriptions and designs. It was designed in 1810 by local,
+                        Lieutenant John Rogers to commemorate the fiftieth anniversary of King George III`s reign, and has
+                        numerous carvings over all faces.
+                    </p>
+                    <img src="../assets/images/triggshire-area/blisland-jubilee-rock.JPG" width="100%;" alt="" />
+                    <br>
+                    <br>
+                    <p>
+                        Once we have finished admiring Jubilee Rock, we continue west along the path to a small gate and follow this path down and
+                        into Pendrift. At Pendrift we turn left and over the cattle grid before leaving the road and joining
+                        the footpath over the fields. This path, which takes us over three fields, is well marked and fenced
+                        to stop any chance of us straying. We leave the fields by way of a stile and drop down onto the road,
+                        where we want to turn left and head up to the entrance on our right which takes us back onto the
+                        footpath. This path now leads us alongside the holiday cottages here and almost into their gardens
+                        (but not quite). This in turn gives way to two fields – in which there are often cattle – and then
+                        down to Tumrose. At Tumrose, which is a well maintained selection of properties, we step back into
+                        the fields ensuring that we stay on the public path and not walking down the private track. I have
+                        tended to walk around the outside of these fields, although the footpath does go diagonally across
+                        the middle of them, but as I have family who are farmers I have always been brought up to respect
+                        their place of work.
+                    </p>
+                    <p>
+                        At the end of the second field we come back out on the road just below the turning to Waterloo, and find ourselves back on
+                        the same road that we were on an hour ago. We need to turn left here, before turning right and now
+                        head down hill towards Waterloo. As we near the bottom of the hill we find a Bridleway on our right
+                        (just before the bridge) and we are going to turn on to this path. We follow along and pass an old
+                        watermill on our left. This still has the remnants of the wheel gearing on the side of the building
+                        and if you look to the right you can see where the water ran out of (what I presume to be) a leat,
+                        to drive this wonder of our forebears. A little further on the track widens before joining the road,
+                        where we now turn left and then, once over the bridge, we turn right and go through the main gate
+                        (not the small gate to the left which is signed as the Public Footpath) that leads into Lavethan
+                        Wood.
+                    </p>
+                    <p>
+                        This ancient broadleaf woodland is a Nature Reserve, and now we can follow the stream on our right. This stream has its source
+                        out on Trehudreth Downs, and eventually flows down to join the River Camel. After approximately half
+                        a mile the wide track splits, with the left branch heading up, and the right (which we are taking)
+                        leads to a gate which in turn leads through to a valley base field. 200 meters along the field and
+                        on the (right) northern boundary, there is a gate which we are taking and this leads through to a
+                        lovely narrow granite footbridge.
+                    </p>
+                    <img src="../assets/images/triggshire-area/blisland-lavethan-wood-footbridge.JPG" width="100%;" alt="" />
+                    <br>
+                    <br>
+                    <p>
+                        Beware! I have tried to take clever angle photographs of this bridge, and the stones are VERY slippy!
+                    </p>
+                    <p>
+                        On the other side of this bridge we are now going to follow the path as it leads us to the right and slowly up the valley
+                        side until we reach a steeper section that in turn leads us to the steps that bring us out below
+                        the Church in the heart of Blisland.
+                    </p>
+                    <p>
+                        We have now completed our walk, as on the other side of the Church, is the village green. Should you feel in need of refreshment,
+                        then you have the choice of The Tea Rooms – to our right, or the Blisland Inn – straight ahead. The
+                        choice is yours, they are both very welcoming.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

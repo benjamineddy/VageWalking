@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Bude Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Bude</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.831929, lng: -4.5503538 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 111
+                            <br>
+                            <b>Start Ref:</b> 205 067
+                            <br>
+                            <b>End Ref:</b> 205 067
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Easy
+                            <br>
+                            <b>Distance:</b> 7.75 miles
+                            <br>
+                            <b>Time:</b> 2.5 -3hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        This walk, is dedicated to a very good friend, who is a native of these parts (and suggested this area to walk) but she has
+                        since moved south further into Cornwall.
+                    </p>
+                    <p>
+                        For this walk we left the car in Summerleaze car park in Bude (at a very reasonable parking charge for Cornwall) and headed
+                        South West across the beach towards the little footbridge which leads you over the last section of
+                        the Bude Canal, and after crossing over and exploring the Breakwater, we headed South and up on to
+                        the top of the headland to admire the lookout building on Compass Point. From here, we were greeted
+                        with fine views both North and South, before making our way again South along the coastal footpath,
+                        but within the fields so never really feeling to exposed. This section of the coastal path is actually
+                        quite flat and reminded me very much of North Cliffs at Portreath - even to the point of being able
+                        to see a radio station!!
+                    </p>
+                    <img src="../assets/images/stratton-area/bude-compass-point.JPG width="100%;" alt="Bude Compass Point" />
+                    <br>
+                    <br>
+                    <p>
+                        We pass by Efford Beacon and within no time the path came close alongside the road at Upton. Here, you could walk East down
+                        the road at Upton and join up with the Bude Canal path in approx. 3/4 mile, therefore shortening
+                        your walk. However, we decided (as the path was easy) to push on and follow the path, which is just
+                        off the road, past a hotel and down towards a little headland called Lower Longbeak where there is
+                        a Tumulus at its head which appears to be made as if to sit and ponder with views over Widemouth
+                        Sands. Just after this we reach the old Salthouse, and here left the coastal path, as we crossed
+                        over the road (North East direction) and into the fields, where it is well signposted, and relatively
+                        straight, for 5 fields, slowly dropping in height until you arrive down by the main A39 and the start
+                        of the Bude Canal as it is sectioned off from the River Neet or Strat (even the map marks this river
+                        with two names!). Although the map shows that you join the A39 for a brief period, there is a permissive
+                        path through the car park of the business at the bottom of the fields, so you can walk straight on
+                        to the Bude Canal Path.
+                    </p>
+                    <img src="../assets/images/stratton-area/bude-canel-path.JPG" width="100%;" alt="Bude Canel Path" />
+                    <br>
+                    <br>
+                    <p>
+                        You are now on flat and even ground and will be now until you reach Bude. However, it would be unfair on thissection of the
+                        walk to leave it at that. After about a mile you cross over the small road leading down from Upton
+                        (where you could have turned off), and all along the length of the footpath are spectacular wooden
+                        chain links of about a meter in height - all of which are named - and worth looking at. Not to mention
+                        the lock gates which are also a feature of this section.
+                    </p>
+                    <p>
+                        After passing the bird haven, the canal opens up and suddenly you find yourself alongside the car park by the visitor centre,
+                        from which it is a simple case of following the canal to the beach and then back across the footbridge
+                        to head to your car.
+                    </p>
+                    <p>
+                        I hope that you enjoy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

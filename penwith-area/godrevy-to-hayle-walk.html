@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Godrevy to Hayle Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Godrevy to Hayle</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The start location of the walk
+                            var walkStart = { lat: 50.239179, lng: -5.3937974 };
+                            // The end location of the walk
+                            var walkEnd = { lat: 50.195874, lng: -5.4285619 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walkStart,
+                                    streetViewControl: false
+                                });
+                            // The markers, positioned at the start and end of the walk
+                            var markerStart = new google.maps.Marker({ position: walkStart, map: map, label: '1' });
+                            var markerEnd = new google.maps.Marker({ position: walkEnd, map: map, label: '2' });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 102
+                            <br>
+                            <b>Start Ref:</b> 581 432
+                            <br>
+                            <b>End Ref:</b> 554 385
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Easy
+                            <br>
+                            <b>Distance:</b> 4 miles
+                            <br>
+                            <b>Time:</b> 2hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        A Walk Requiring a Shuttle Run
+                    </p>
+                    <p>
+                        We started this walk from the National Trust car park at Godrevy and headed South along the track back towards the car park
+                        by Gwithian Beach. Rather than walking on to the beach we turned left over the footbridge and followed
+                        the track right, onto St. Gothian Nature Reserve, where we were welcomed (in Cornish) by a lovely
+                        slate marker.
+                    </p>
+                    <img src="../assets/images/penwith-area/godrevy-st-gothian-sands-marker.JPG" width="100%;" alt="Godrevy St. Gothian's Marker"
+                    />
+                    <br>
+                    <br>
+                    <p>
+                        This marker we found to be the first of many, and in fact we would be able to follow them for almost the entire length of
+                        our walk, with the next being visible from the last in most cases, and the path being well trodden
+                        (sand between the grasses).
+                    </p>
+                    <p>
+                        Apart from the views of St. Ives Bay and the Towans, this walk is worth doing if only for these amazing path markers.
+                    </p>
+                    <p>
+                        This well marked path leads us over the undulating dunes (Towans) of Gwithian, Upton, Phillack and Mexico, and over the bottom
+                        section of two of the holiday camps.
+                    </p>
+                    <p>
+                        In many places the Towans have been fenced off to allow nature to reclaim them, but there is still plenty of space to feel
+                        free.
+                    </p>
+                    <img src="../assets/images/penwith-area/godrevy-the-towans-at-gwithian.JPG" width="100%;" alt="Gwithian" />
+                    <br>
+                    <br>
+                    <p>
+                        If the tide is right (always check the timetables) you can join the beach from any of the numerous paths that connect to
+                        them, which also allows for beachgoers, lifeguards and many of the surf schools to gain access.
+                    </p>
+                    <p>
+                        After a couple of hours we rounded Black Cliffs, and were just able to make out the spire of Lelant Church, across the Hayle
+                        Estuary, and where we `found` a pub right on the footpath in which to enjoy a good pint and a bite.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Kit Hill Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Kit Hill</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.519104, lng: -4.2816205 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 108
+                            <br>
+                            <b>Start Ref:</b> 3835 7130
+                            <br>
+                            <b>End Ref:</b> 3835 7130
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b> Grading:</b> Easy - Medium
+                            <br>
+                            <b>Distance:</b> 7 miles
+                            <br>
+                            <b>Time:</b> 2.5hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        For this walk, we start in the small car park on the Western edge of the hill, and turn our left shoulder to the hill as
+                        we follow the road North towards Monkscross. At the crossroads go straight across and then ponder
+                        why we are walking over a bridge with nothing underneath (there was an old railway here). Carry on
+                        down the road until we come to a left turn, and take this. All along this road we will be greeted
+                        with views out across Dartmoor, until it drops down into the shelter of the evergreen trees and the
+                        valley bottom.
+                    </p>
+                    <p>
+                        Here we will see a spot where we could also park (if we wanted to start from a different location), but more importantly
+                        there is a lovely ford to cross – I`m a sucker for fords!
+                    </p>
+                    <p>
+                        Cross over the little bridge – or be a devil and run through it if the level is low – and then on through the gate opposite
+                        that brings us on to the Tamar Valley Discovery Trail. This trail is a national trail, but the Duchy
+                        of Cornwall are eager to point out that this is actually a Permissive Route.
+                    </p>
+                    <img src="../assets/images/east-ryslegh-area/kitthill-1.JPG" width="100%;" alt="Kitthill Stream" />
+                    <br>
+                    <br>
+                    <p>
+                        The path is now level and trees overhang us as we follow the pretty, babbling stream, and hides a multitude of mining heritage
+                        buildings, and just before we reach Old Mill we will see the old Levell, crossing the stream. Back
+                        on to the road, we turn left (SW) and then immediately past the first house, we are back on the footpath
+                        on our left (S) as we start to head up a rather muddy track (that my niece, who insists on wearing
+                        white trainers whenever we go walking, would not be impressed with). This path is just wide enough
+                        for older tractors and cattle – hence why it is probably so muddy.
+                    </p>
+                    <p>
+                        After a short climb, we come to a narrow road which we again cross and we are now on a drier path with stone run offs crossing
+                        it at regular intervals. After a few hundred meters the path bends sharp right (W) which we have
+                        to follow. However, there is an interesting stile on the corner, which I would love to investigate,
+                        but sadly there is no right of way on the other side.
+                    </p>
+                    <p>
+                        A few hundred meters more and we are back on the road and heading left (SE) uphill until we reach a T junction. At this junction
+                        we turn left and the entrance to Kit Hill is on our right. This entrance is described as Kit Hill
+                        Incline. This gives us a clue as to what is in store, and I have to admit to stopping a couple of
+                        times (purely to take in the view, you understand!). This path leads us up to the old quarry, and
+                        then around to the right (W) before bringing us through a swing gate and suddenly we are at the summit
+                        and its impressive structures.
+                    </p>
+                    <img src="../assets/images/east-ryslegh-area/kitthill-2.JPG" width="100%;" alt="Kitthill Shadow" />
+                    <br>
+                    <br>
+                    <p>
+                        After admiring the view, which is extensive on a clear day (Davidstow, Brown Willy, Cheesewring, High Willhays, Plymouth
+                        Sound etc.,), we then head down the path which follows by the side of the road, which allows you
+                        to drive all the way to the summit! In a SE direction, and after about ten minutes we are back at
+                        the car.
+                    </p>
+                    <p>
+                        Kit Hill is an interesting hill. Its name is taken from Old English, which in turn was taken from Cornish (Bre Skowl), and
+                        means Hill of the Birds of Prey. It also has impressive earthworks, a civil war folly, not to mention
+                        an impressive chimney (clad in scaffolding when I was last there), a little flooded quarry and what
+                        appeared to be a stone covered leat near the top.
+                    </p>
+                    <p>
+                        The views here, cannot be underestimated and thankfully there are trig points which allow us to know what we are looking
+                        at, and the hill itself is well worth spending an hour or so just walking around. I hope that you
+                        enjoy this walk as much as I have.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

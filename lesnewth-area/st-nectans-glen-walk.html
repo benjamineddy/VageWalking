@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>St. Nectan's Glen Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>St. Nectan's Glen</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.671490, lng: -4.7242311 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 111
+                            <br>
+                            <b>Start Ref:</b> 076 893
+                            <br>
+                            <b>End Ref:</b> 454 534
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b> Grading:</b> Medium - Hard
+                            <br>
+                            <b>Distance:</b> 2 miles
+                            <br>
+                            <b>Time:</b> 2hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        We leave our car in the little car park pull in midway between Tintagel and Boscastle on the B3263. There are two pull ins
+                        and we start our walk on the opposite side of the road to the second pull in.
+                    </p>
+                    <p>
+                        The walk starts by leading up a bridleway and on to St. Piran`s Well and Chapel. The walk loops out from here, and back to
+                        here. For today`s walk we are going to bear right, keeping the Church on our left and follow the
+                        footpath as it leads us pass the Roman Milestone and then slowly down into the valley. The path slowly
+                        bears left and down until it reaches the valley floor and we find ourselves walking alongside the
+                        stream.
+                    </p>
+                    <img src="../assets/images/lesnewth-area/st-nectans-glen-1.jpg" width="100%;" alt="St. Nectan's Glen Path" />
+                    <br>
+                    <br>
+                    <p>
+                        We are going to follow the stream inland and follow it up the valley until we reach a wooden footbridge, where a footpath
+                        from the opposite side of the valley joins our path. I mention this bridge, firstly as a point of
+                        reference so we know that we are on the correct path, but also because on our left we will find a
+                        fallen tree that is imbedded with coins in lines to the extent that it looks like a scaly dragons
+                        limb.
+                    </p>
+                    <p>
+                        Continue on up on the same side of the stream and we then come across arguably the hardest section of this walk. The path
+                        now starts to head up the valley side and is quite steep. As we reach this point we start to hear
+                        the first tantalizing sounds of the waterfall. As the path reaches the top, it opens out into a small
+                        complex of cafe`s, toilets and a shop.
+                    </p>
+                    <p>
+                        Here, we can either pay to see the waterfall (which is totally hidden from the public path), have an ice cream or continue
+                        our walk.
+                    </p>
+                    <p>
+                        The path that we are going to leave by, heads up passing the toilets on our right and following what is now a bridleway.
+                        This bridleway takes a sharp right after about 200m and then a sharp left after a further 200m. The
+                        sharp left marks the point at which we are at our highest point on this walk, and as such gives us
+                        lovely views out over the cost before dropping gently down towards the Church and St. Piran`s Well.
+                    </p>
+                    <p>
+                        From here we hop across the road and our walk is complete.
+                    </p>
+                    <p>
+                        This walk has the beauty of streams in a valley and views out over the coast. If we have paid to see the waterfall, we have
+                        also had the beauty of the Kieve.
+                    </p>
+                    <img src="../assets/images/lesnewth-area/st-nectans-glen-2.JPG" width="100%;" alt="St. Nectan's Glen Waterfall" />
+                    <br>
+                    <br>
+                    <p>
+                        I hope that you enjoy, and that it leaves you feeling as happy as all those polled (except maybe for the entry fee).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

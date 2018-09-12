@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124587564-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124587564-2');
+    </script>
+    <title>Lamorna Walk</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">Vage Walking</a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="../index.html">- Home -</a>
+            </li>
+            <li>
+                <a href="../kerrier-area/kerrier-area.html">Kerrier</a>
+            </li>
+            <li>
+                <a href="../penwith-area/penwith-area.html">Penwith</a>
+            </li>
+            <li>
+                <a href="../powdershire-area/powdershire-area.html">Powdershire</a>
+            </li>
+            <li>
+                <a href="../pydarshire-area/pydarshire-area.html">Pydarshire</a>
+            </li>
+            <li>
+                <a href="../west-fowy-area/west-fowy-area.html">West Fowy</a>
+            </li>
+            <li>
+                <a href="../east-ryslegh-area/east-ryslegh-area.html">East Ryslegh</a>
+            </li>
+            <li>
+                <a href="../triggshire-area/triggshire-area.html">Triggshire</a>
+            </li>
+            <li>
+                <a href="../lesnewth-area/lesnewth-area.html">Lesnewth</a>
+            </li>
+            <li>
+                <a href="../stratton-area/stratton-area.html">Stratton</a>
+            </li>
+            <li>
+                <a href="../about.html">- My Story -</a>
+            </li>
+            <li>
+                <a href="../gallery.html">- Gallery -</a>
+            </li>
+            <li>
+                <a href="../contact.html">- Contact Us -</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Lamorna</h2>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <div id="map"></div>
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of the walk
+                            var walk = { lat: 50.062230, lng: -5.5643614 };
+                            // The map, centered at the walk
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {
+                                    zoom: 12,
+                                    center: walk,
+                                    streetViewControl: false
+                                });
+                            // The marker, positioned at the walk
+                            var marker = new google.maps.Marker({ position: walk, map: map });
+                        }
+                    </script>
+                    <!--Load the API from the specified URL
+							* The async attribute allows the browser to render the page while the API loads
+							* The key parameter will contain your own API key (which is not needed for this tutorial)
+							* The callback parameter executes the initMap() function
+							-->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTZHNfm13I-3-iOup7xalVeeddlQTmPc&callback=initMap">
+                    </script>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="6u 12u$(medium)">
+                            <b>OS Explorer Map:</b> 102
+                            <br>
+                            <b>Start Ref:</b> 450 241
+                            <br>
+                            <b>End Ref:</b> 450 241
+                        </div>
+                        <div class="6u$ 12u$(medium)">
+                            <b>Grading:</b> Medium - Hard
+                            <br>
+                            <b>Distance:</b> 4 miles
+                            <br>
+                            <b>Time:</b> 3hrs
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        In places, especially at the start, this footpath is steep, rocky and with sheer drops to our right hand side, in others
+                        it is rather steep. However, for those of us who give it a go, we will be rewarded with lovely views
+                        out to sea and back towards Lamorna Cove.
+                    </p>
+                    <p>
+                        We start our walk, by leaving our car in the well sized (if pricy) car park at Lamorna Cove, and walk along the front towards
+                        the coastal path. The first part of this walk leads us gently up and through the trees before becoming
+                        quite steep on our right hand side, and the footpath feels narrow with a lot of step steps over rocks
+                        in the path, as the footpath makes its way up the cliff edge.
+                    </p>
+                    <img src="../assets/images/penwith-area/lamorna-cove.JPG" width="100%;" alt="Lamorna Cove" />
+                    <br>
+                    <br>
+                    <p>
+                        It flattens a little as we make our way to the first little headland that is Carn-du, and from here we have a good view back
+                        towards Lamorna Cove and also (if the weather is clear) west over to the Beacon at Tater-du.
+                    </p>
+                    <p>
+                        At Carn-du we follow the path along to the East and over Kemyel Cliffs and drop down into Kemyel Crease Nature Reserve. This
+                        reserve has a wealth of good sized evergreen trees which provide good shade on a hot day. The flip
+                        to this shade is that the footpath drops down in to the reserve before hiking back up out!
+                    </p>
+                    <p>
+                        Once past the Reserve, the footpath follows the top line of the cliffs and becomes far easier to walk, and at spots there
+                        are benches placed to allow us to stop a while and admire the view. When my wife and I last did this
+                        walk, we sat here for a drink and a slice of cake and watched a small pod of dolphins playing in
+                        the bay below us. A truly wonderful experience.
+                    </p>
+                    <p>
+                        Just beyond the bench, and where we feel as if the path has become a little wider and may be about to turn into a bridleway,
+                        we find a footpath over our left shoulder. This path is about 200 meters before the path meets the
+                        road, so if we make the road we need to turn back. Over the stiles and through the gates we now go
+                        as we start the return leg of this walk, passing through 6 fields before reaching Kemyel Drea Farm.
+                        As we pass through these fields we keep the hedge lines to our right always keeping our heading in
+                        a south westerly direction back towards Lamorna.
+                    </p>
+                    <img src="../assets/images/penwith-area/lamorna-kemyel-crease-nature-reserve.JPG" width="100%;" alt="Kemyal Reserve" />
+                    <br>
+                    <br>
+                    <p>
+                        After passing through Kemyel Drea, there is a small redirecting of the footpath (well marked) as the footpath then leads
+                        us through a little copse and over a footbridge. Beware, the ground just before the bridge and after,
+                        if it has been raining, suggests that the footbridge is not long enough!!
+                    </p>
+                    <p>
+                        The path leads us on towards and through Kemyel Crease, where we will find the footpath on our right as we pass through the
+                        farm. The path then leads us over 3 more fields before reaching Higher Kemyel Farm. Here, we need
+                        to follow the path to the end of the lane (rather than picking up the footpath on our right, which
+                        is on the bend of the lane). If we pick up the wrong path here, we will end up on the road leading
+                        into Lamorna, rather than the path we desire, which brings us down the tree lined valley and along
+                        the outskirts of the quarry that runs alongside Lamorna. Again, this section can be steep, but there
+                        is on section which gives us great views as the path weaves left and right in an effort to reduce
+                        the angle of the footpath.
+                    </p>
+                    <p>
+                        As we approach the bottom of this valley, we come back on to a wider white lane track which leads us in front of the houses
+                        which front on to the car park at Lamorna, and our walk is finished.
+                    </p>
+                    <p>
+                        In summer the road down to the quay can get very busy, and feels like it is only suitable for one vehicle at a time, but
+                        before braving the return trip up this road, there is a cafe where refreshments can be had.
+                    </p>
+                    <p>
+                        I hope that you enjoy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="6u 12u$(medium)">
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.facebook.com/vagewalking/" target="_blank" class="icon fa-facebook">
+                                <span class="label">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vagewalking/?hl=en" target="_blank" class="icon fa-instagram">
+                                <span class="label">Instragram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" class="icon fa-envelope-o">
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy; Vage Walking. All rights reserved.
+                        <br> I really hope you enjoy my walks, I certainly have. Every effort has been made to ensure the
+                        grading, directions and time estimates for each walk are accurate and applicable to the average walker.
+                        However, you complete the walks at your own risk and must take into account your own abilities.
+                    </div>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <img src="../assets/images/logo-white.png" alt="Vage Walking Logo" style="max-height: 50%; max-width: 50%;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
